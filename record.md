@@ -21,7 +21,7 @@ DWF
 + 变化量(考虑使用timeseries)
 
 |time|gdp|finacial|population|employee|income|education|house|
-|-|-|-|-|-|-|-|
+|-|-|-|-|-|-|-|-|
 |2012|8888|0|88|60%|33|78%|1.3|
 
 ### 数据来源调研
