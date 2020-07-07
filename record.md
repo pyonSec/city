@@ -27,7 +27,8 @@ DWF
 **变化量数据库中存储oid？Name.删除后是否删除该数据库字段**
 + 删除：增加负担
 + 不删除：再次增加，oid需要重新更新，是否需要加入name
-
+参数调整：需要表单，可选中数据进行计算
+评分更新：导入数据后自动依赖更新
 ### 数据来源调研
 [知乎](https://zhuanlan.zhihu.com/p/25130679)
 [上海统计年鉴](http://tongji.cnki.net/kns55/navi/YearBook.aspx?id=N2017120310&floor=1###)
