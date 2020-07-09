@@ -62,3 +62,40 @@ dbcode=fsyddt&wd=reg&zbId=A0201&sjval=201506
 http://data.stats.gov.cn/adv.htm?m=advquery&cn=E0101
 
 找到查询按钮和easyquery之间跳转与参数传递关系
+
+调研状况：
++ http://www.mytju.com/classcode/tools/messyCodeRecover.asp
++ windows-1252	UTF-8编码的中文
+
+模拟提交的表单中json
+
+[{"wd":"zb","zb":["A0101"],"name":["国内生产总值"]},{"wd":"reg","zb":["110000","310000","340100","350200"],"name":["北京","上海","合肥","厦门"]}]
+
+表单做post操作
+
+<form id="advQueryForm" action="/adv.htm?m=advquery&amp;cn=E0105" method="post">
+    
+document.getElementById("c").value = jsonStr;
+document.getElementById("advQueryForm").action = url;
+
+直接fetch疑似有跨域问题，无法得到正确的返回值
+```js
+fetch("http://data.stats.gov.cn/adv.htm?m=advquery&cn=E0105", {method: 'POST', mode:'cors', headers:{'Content-Type': 'application/json'},redirect:'follow',referrerPolicy:'no-referrer',body:JSON.stringify([{"wd":"zb","zb":["A0101"],"name":["国内生产总值"]},{"wd":"reg","zb":["110000","310000","340100","350200"],"name":["北京","上海","合肥","厦门"]}])}).then(data=>{console.log(data)})
+```
+在`http://data.stats.gov.cn/`下执行可以获得`ReadableStream`
+```
+url="http://data.stats.gov.cn/adv.htm?m=advquery&cn=E0105"
+param=[{"wd":"zb","zb":["A0101"],"name":["国内生产总值"]},{"wd":"reg","zb":["110000","310000","340100","350200"],"name":["北京","上海","合肥","厦门"]}]
+function Post(URL, PARAMTERS) {
+         var temp_form = document.createElement("form");
+         temp_form.action = URL;
+         temp_form.method = "post";
+         temp_form.style.display = "none";
+         var opt = document.createElement("textarea");
+         opt.name = "c";
+         opt.value = PARAMTERS;
+         document.body.appendChild(temp_form);
+         temp_form.submit();
+     }
+Post(url, param)
+```
