@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-07-11T06:10:40.050Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="fGeYKar6-ul-ttSAa98A" version="13.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-07-11T06:12:16.748Z" agent="5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="_q_eFJH2jCYzaAGY2V3x" version="13.4.2" type="github">
   <diagram id="G_rd9TRsf-gtkVo-q1Q9" name="Page-1">
-    <mxGraphModel dx="1240" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1021" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,12 +94,6 @@
         <mxCell id="D4Oy2lb0-_4yQTTw8sjt-42" value="拟合参数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D4Oy2lb0-_4yQTTw8sjt-40">
           <mxGeometry y="26" width="100" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="D4Oy2lb0-_4yQTTw8sjt-44" value="指标" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="924" width="100" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="D4Oy2lb0-_4yQTTw8sjt-45" value="增删指标" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D4Oy2lb0-_4yQTTw8sjt-44">
-          <mxGeometry y="26" width="100" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="D4Oy2lb0-_4yQTTw8sjt-36" value="数据" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="924" width="100" height="52" as="geometry" />
         </mxCell>
@@ -126,6 +120,12 @@
         </mxCell>
         <mxCell id="D4Oy2lb0-_4yQTTw8sjt-52" value="基础数据一览" style="shape=note;size=20;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="379" y="750" width="70" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="D4Oy2lb0-_4yQTTw8sjt-44" value="指标" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="930" width="100" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="D4Oy2lb0-_4yQTTw8sjt-45" value="增删指标" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D4Oy2lb0-_4yQTTw8sjt-44">
+          <mxGeometry y="26" width="100" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
