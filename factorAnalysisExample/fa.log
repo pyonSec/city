@@ -1,0 +1,81 @@
+Index(['consumeLevel', 'CPI', 'GDP'], dtype='object')
+consumeLevel    44143.047619
+CPI               102.342857
+GDP             42998.773810
+dtype: float64
+consumeLevel     8470.399450
+CPI                 0.627353
+GDP             25681.138242
+dtype: float64
+[1.85956771 0.98216885 0.15826344]
+[[ 0.9492388 ]
+ [-0.20690114]
+ [ 0.95692493]]
+Index(['socialFinancing', 'revenue', 'balanceDeposit'], dtype='object')
+socialFinancing     6803.809524
+revenue             6137.107143
+balanceDeposit     20875.846667
+dtype: float64
+socialFinancing    1271.461270
+revenue            2735.144319
+balanceDeposit     6205.686000
+dtype: float64
+[2.28058812 0.42244952 0.29696237]
+[[-0.87143726]
+ [-0.89635944]
+ [ 0.8471865 ]]
+Index(['undergraduateStudent', 'primarySchoolStudent',
+       'juniorHighSchoolStudent', 'seniorHighSchoolStudent',
+       'elementarySchool', 'secondarySchools', 'higherEducationSchools'],
+      dtype='object')
+undergraduateStudent           51.180000
+primarySchoolStudent          344.654286
+juniorHighSchoolStudent    143794.635238
+seniorHighSchoolStudent        78.906667
+elementarySchool             4248.809524
+secondarySchools              637.857143
+higherEducationSchools         65.666667
+dtype: float64
+undergraduateStudent            0.547001
+primarySchoolStudent          388.990960
+juniorHighSchoolStudent    208074.379960
+seniorHighSchoolStudent        91.895973
+elementarySchool             4920.290780
+secondarySchools              321.302394
+higherEducationSchools          1.653280
+dtype: float64
+[5.33547864e+00 1.20734859e+00 4.03007510e-01 2.85952278e-02
+ 2.17324199e-02 3.67177562e-03 1.65834284e-04]
+[[ 0.90587613]
+ [ 0.96970578]
+ [-0.5866677 ]
+ [ 0.97293942]
+ [ 0.96675081]
+ [ 0.78329329]
+ [-0.85766669]]
+Index(['medicalInstitution', 'medicalPeople', 'medicalBed'], dtype='object')
+medicalInstitution    19539.047619
+medicalPeople          1265.343333
+medicalBed             3519.983333
+dtype: float64
+medicalInstitution    21175.955821
+medicalPeople          1767.209118
+medicalBed             5065.757660
+dtype: float64
+[2.35942377e+00 6.39996218e-01 5.80017318e-04]
+[[-0.70291429]
+ [ 0.96417156]
+ [ 0.96732025]]
+Index(['totalPopulation', 'bornRate', 'populationIncrease'], dtype='object')
+totalPopulation       4886.346624
+bornRate                 9.875238
+populationIncrease       4.830476
+dtype: float64
+totalPopulation       4385.654832
+bornRate                 1.666804
+populationIncrease       1.972966
+dtype: float64
+[2.77768701e+00 2.20491682e-01 1.82130929e-03]
+[[0.92270934]
+ [0.97141037]
+ [0.99129026]]
