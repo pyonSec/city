@@ -99,6 +99,9 @@ function Post(URL, PARAMTERS) {
      }
 Post(url, param)
 ```
+
+### 爬虫
+[selenium](https://www.selenium.dev/documentation/zh-cn/selenium_installation/installing_selenium_libraries/)
 ## Issue
 - [x] 网页预览
 - [ ] 爬虫程序
