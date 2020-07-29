@@ -63,7 +63,9 @@ class Indicator(object):
         self.rawdf = self.timeData.fillna(method='ffill', axis=0).fillna(method='bfill', axis=0)
         self.mean = self.rawdf.mean()
         self.sigma = self.rawdf.std()
-        self.df = (self.rawdf-self.mean)/self.sigma
+        #self.df = (self.rawdf-self.mean)/self.sigma
+        #factor_analyzer standardizes input data automatically, so manual standardization is not necessary.
+        self.df = self.rawdf * 1
     def FA(self):
         fa = FactorAnalyzer(n_factors=1, method="principal", rotation="varimax")
         fa.fit(self.df)
