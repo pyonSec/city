@@ -104,7 +104,9 @@ Post(url, param)
 [selenium](https://www.selenium.dev/documentation/zh-cn/selenium_installation/installing_selenium_libraries/)
 ## Issue
 - [x] 网页预览
+- [x] 增加自动填入百科链接
 - [ ] 爬虫程序
+- [ ] 前端将数据传入脚本执行
 - [x] 超级控件使用
 - [x] 后端更新评分
 - [x] 前端刷新评分
